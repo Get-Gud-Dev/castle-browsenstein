@@ -1,0 +1,17 @@
+{
+  "name": "castle-browsenstein",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "bundle": "browserify engine/index.js -o pub/js/game.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GettenGud",
+  "license": "Unlicense",
+  "dependencies": {
+    "express": "^4.17.1",
+    "retro-render": "file:../retro-render",
+    "socket.io": "^2.3.0"
+  }
+}
